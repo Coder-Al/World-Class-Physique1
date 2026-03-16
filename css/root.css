@@ -1,0 +1,19 @@
+:root {
+  
+  /* core brand colrs  */
+  --black:rgb(10, 10, 10);
+  --charcoal: rgb(35, 35, 35);
+
+  --purple: rgb(120, 40, 200);
+  --accent-color: rgb(212, 175, 55);
+
+  /* text colors */
+  
+  --text-primary: rgb(35, 35, 35);
+  --text-light: rgb(245, 245, 245);
+
+  /* background colors */
+  --bg-dark: rgb(10, 10, 10);
+
+  --bg-light: rgb(250, 250, 250);
+}
