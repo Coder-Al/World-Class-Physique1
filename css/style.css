@@ -120,6 +120,7 @@ section {
 .container {
   max-width: 1100px;
   margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 /* navbar */
@@ -238,7 +239,7 @@ section {
 
 .hero {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url('../images/karsten-winegeart-0Wra5YYVQJE-unsplash.webp');
   background-size: cover;
   background-repeat: no-repeat;
@@ -380,8 +381,8 @@ section {
 }
 
 .trainer-card img {
-  text-align: center;
-  margin-left: 5rem;
+  /* text-align: center; */
+  margin: 0 auto;
 }
 
 /* trainer hover */
@@ -397,8 +398,8 @@ section {
 }
 
 .trainer-image img {
-  width: 320px;
-  max-height: 350px;
+  width: 100%;
+  max-height: 320px;
   text-align: center;
   object-fit: cover;
   border-radius: 1%;
@@ -1109,7 +1110,7 @@ height:auto;
 @media (min-width:1024px) {
 
   .header {
-    padding: 0.5 0;
+    padding: 0.5rem 0;
   }
 
   .logo img {
