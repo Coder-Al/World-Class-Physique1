@@ -398,12 +398,12 @@ section {
 }
 
 .trainer-image img {
-  width: 100%;
+  width: 190px;
   max-height: 320px;
   text-align: center;
   object-fit: cover;
-  border-radius: 1%;
-  border: 3px solid var(--accent-color);
+  border-radius: 5px;
+  border: 2px solid var(--accent-color);
 }
 
 /* trainer name */
