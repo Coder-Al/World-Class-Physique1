@@ -1,1 +1,38 @@
+/* Social icons */
 
+.social-links a,
+.footer-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.social-links i,
+.footer-column i {
+  font-size: 1.1rem;
+}
+
+
+/*social hover  */
+
+.social-links a:hover i {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}
+
+.fa-instagram:hover {
+var(--purple);
+}
+
+.fa-facebook:hover {
+  var(--purple);
+}
+
+.fa-tiktok:hover {
+  var(--purple);
+}
+
+.fa-whatsapp:hover {
+  var(purple);
+}
