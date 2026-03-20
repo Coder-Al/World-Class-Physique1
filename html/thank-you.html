@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description"
+    content="Elite personal training and corporate wellness programs in Nassau Bahamas. Build muscle, lose fat, and transform your physique." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Class Physique | Personal Training Nassau</title>
+  <link rel="stylesheet" type="text/css" href="../css/thank-you.css" />
+  <link rel="stylesheet" type="text/css" href="../css/root.css" />
+  <link rel="icon" href="./images/favicon.png" />
+</head>
+
+<body class="thank-you-page">
+  <header class="header">
+
+    <!-- nav warpper -->
+
+    <div class="nav-wrapper">
+      <!-- nav bar -->
+      <nav class="navbar">
+
+        <!-- logo -->
+
+        <div class="logo">
+          <a href="../index.html">
+           <img src="../images/Frank's Logo.png" alt="World Class Physique logo"/> 
+          </a> 
+        </div>
+
+        <!-- mobile toggle menu -->
+        <button class="menu-toggle" aria-label="Toggle Menu">
+
+          <!-- creates lines for our mobile menu -->
+
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links">
+
+          <!-- nav menu -->
+
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs-services">Programs & Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#transformations">Transformations</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+          <li>
+            <a class="cta-btn" href="#booking">Book Session</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav-overlay"></div>
+    </div>
+  </header>
+  <main>
+    <section id="home" class="hero">
+
+      <!-- hero image -->
+      <div class="hero-overlay"></div>
+
+      <!-- hero content -->
+      <div class="hero-content">
+
+        <h1>You're Almost Done!</h1>
+        <p>Your request has been received.</p>
+        <p>We're connecting you to your coach on WhatsApp now</p>
+
+        <a href="https://wa.me/12428220994" class="btn btn-primary">
+          Open WhatsApp Manually
+        </a>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="footer">
+
+    <div class="footer-top"></div>
+
+    <div class="footer-container">
+
+      <!-- contact Info -->
+
+      <div class="footer-column">
+
+        <h3>Contact Us</h3>
+
+        <p>World Class Physique</p>
+
+        <p>Nassau Bahamas</p>
+
+        <p>
+          <a href="tel:12428220994">
+            +1 (242) 822-0994
+          </a>
+        </p>
+
+        <p>
+          <a href="mailto:">Classic Physique email</a>
+        </p>
+      </div>
+      <!-- quick links -->
+
+      <div class="footer-column">
+
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#transformations">Transformations</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a hef="#bookings">Booking Session</a></li>
+        </ul>
+      </div>
+
+      <!-- social media -->
+
+      <div class="footer-column">
+
+        <h3>Follow Us</h3>
+
+        <ul class="social-links">
+          <li>
+            <a href="#">Instagram</a>
+          </li>
+
+          <li><a href="#">Facebook</a></li>
+
+          <li><a href="#">TikTok</a></li>
+
+          <li>
+            <a href="https://wa.me/12428220994" target="_blank">Chat With Us On WhatsApp</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer bottom -->
+
+    <div class="footer-bottom">
+      <p>© 2026 World Class Physique. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="../js/script.js"></script>
+  <script src="../js/form.js"></script>
+ <script>
+  const message = localStorage.getItem("waMessage");
+
+  if (message) {
+    const encodedMessage = encodeURIComponent(message);
+
+    setTimeout(() => {
+      window.location.href = `https://wa.me/12428220994?text=${encodedMessage}`;
+    }, 2500);
+  }
+</script>
+</body>
+</html>
