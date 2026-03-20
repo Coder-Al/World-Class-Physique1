@@ -1158,6 +1158,12 @@ font-size:3.5rem;
 
 .trainer-image img {
   margin-bottom: 0;
+   width: 190px;
+  height: 220px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 5px; 
+  border: 2px solid var(--accent-color);
 }
 
 .trainer-video {
