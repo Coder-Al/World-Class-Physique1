@@ -1,7 +1,16 @@
 /* Social icons */
 
+<<<<<<< HEAD
 .footer-column i {
   margin-right: 8px;
+=======
+.social-links a,
+.footer-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+>>>>>>> 3f1941ff6f89b4bded2b98c0a81aed882a64a630
 }
 
 .social-links i,
@@ -9,6 +18,7 @@
   font-size: 1.1rem;
 }
 
+<<<<<<< HEAD
 /* social icons color */
 
 .fa-instagram {
@@ -91,3 +101,28 @@
   transform: translateX(-2px);
   transition: 0.3s ease;
 }
+=======
+
+/*social hover  */
+
+.social-links a:hover i {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}
+
+.fa-instagram:hover {
+var(--purple);
+}
+
+.fa-facebook:hover {
+  var(--purple);
+}
+
+.fa-tiktok:hover {
+  var(--purple);
+}
+
+.fa-whatsapp:hover {
+  var(purple);
+}
+>>>>>>> 3f1941ff6f89b4bded2b98c0a81aed882a64a630
