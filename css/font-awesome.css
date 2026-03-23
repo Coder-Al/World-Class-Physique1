@@ -1,0 +1,93 @@
+/* Social icons */
+
+.footer-column i {
+  margin-right: 8px;
+}
+
+.social-links i,
+.footer-column i {
+  font-size: 1.1rem;
+}
+
+/* social icons color */
+
+.fa-instagram {
+  color: rgb(225, 48, 108);
+}
+
+.fa-facebook {
+  color: rgb(24, 119, 242);
+}
+
+.fa-tiktok {
+  color: rgb(255, 255, 255);
+}
+
+.fa-whatsapp {
+  color: rgb(37, 211, 102);
+}
+
+/*social hover  */
+
+.social-links i {
+  transition: 0.3s;
+}
+
+.social-links a:hover i {
+  transform: scale(1.2);
+}
+
+.insta a:hover {
+  color: rgb(225, 48, 108);
+}
+
+.fbook a:hover {
+  color: rgb(24, 119, 242);
+}
+
+.tik a:hover {
+  color: var(--accent-color);
+}
+
+.whatsapp a:hover {
+  color: rgb(37, 211, 102);
+}
+
+/* contacts icons */
+
+.fa-location-dot {
+  color: rgb(212, 13, 13);
+}
+
+.fa-phone {
+  color: var(--accent-color);
+}
+
+.fa-envelope {
+  color: rgb(127, 157, 255);
+}
+
+/*  */
+
+.footer-column i:hover {
+  color: var(--accent-color);
+  transform: scale(1.2);
+}
+
+.footer-column i:hover {
+  transition: 0.1s ease;
+}
+
+.footer-column p:hover {
+  color: var(--accent-color);
+}
+
+.footer-column p:hover {
+  transform: translateY(-1px);
+  transition: 0.3s ease;
+}
+
+.footer-column p:active {
+  transform: translateX(-2px);
+  transition: 0.3s ease;
+}

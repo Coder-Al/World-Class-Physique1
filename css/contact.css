@@ -343,11 +343,13 @@ section {
 .book-now h2 {
   font-size: 2rem;
   margin-bottom: 0.8rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
 }
 
 .book-now p {
   font-size: 1rem;
-  color:var(--text-light);
+  color:var(--black);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
 }
 
 /* glass card */
@@ -696,6 +698,7 @@ section {
 }
 
 
+/*Small phones*/
 
 @media (max-width: 480px) {
   .book-now {
@@ -720,12 +723,89 @@ section {
 
 }
 
+/*ipads and laptops  */
+
 @media (min-width: 768px) {
+  .menu-toggle {
+  display: none;
+}  
+
+.nav-wrapper {
+  max-width: 1100px;
+  margin-left: 5rem;
+}
+
+.nav-links {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  height: auto;
+  width: auto;
+  margin-left: auto;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 1rem;
+}
+
+  
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-buttons {
+    flex-direction: row;
+  }
+
+  .booking-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
   .book-now h2 {
     font-size: 2.4rem;
   }
 
   .booking-form {
     padding: 2.5rem;
+  } 
+
+  .footer-container {
+  grid-template-columns: repeat(3,1fr);
+}
+
+}
+
+
+  /*desktop */
+
+
+@media (min-width: 1024px) {
+
+  .hero h1 {
+    font-size: 3.5rem;
   }
+
+  .hero-content {
+    max-width: 750px;
+    padding: 3rem;
+  }
+
+  .booking-form {
+    max-width: 700px;
+    margin: 2rem auto;
+  }
+
+  .logo img {
+ height: 50px;
+}
 }

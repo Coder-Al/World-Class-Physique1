@@ -816,11 +816,6 @@ text-shadow:
   transition: color 0.25s ease;
 }
 
-/* social glow */
-
-.social-links a:hover {
-  color: var(--purple);
-}
 
 /* footer bottom */
 
