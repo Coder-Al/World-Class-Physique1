@@ -67,7 +67,7 @@
       <!-- hero content -->
       <div class="hero-content">
 
-        <h1>You're Almost Done!</h1>
+        <h1>Thank you! You're Almost Done!</h1>
         <p>Your request has been received.</p>
         <p>We're connecting you to your coach on WhatsApp now</p>
 
@@ -131,7 +131,7 @@
 
           <li><a href="https://www.facebook.com/share/1AwHvYga9V/?mibextid=wwXIfr">Facebook</a></li>
 
-          <li><a href="#">TikTok</a></li>
+          <li><a href="https://www.tiktok.com/@worldclass380">TikTok</a></li>
 
           <li>
             <a href="https://wa.me/12428220994" target="_blank">Chat With Us On WhatsApp</a>
@@ -147,17 +147,6 @@
     </div>
   </footer>
   <script src="../js/script.js"></script>
-  <script src="../js/form.js"></script>
- <script>
-  const message = localStorage.getItem("waMessage");
-
-  if (message) {
-    const encodedMessage = encodeURIComponent(message);
-
-    setTimeout(() => {
-      window.location.href = `https://wa.me/12428220994?text=${encodedMessage}`;
-    }, 2500);
-  }
-</script>
+ <script src="../js/thank-you.js"></script>
 </body>
 </html>
