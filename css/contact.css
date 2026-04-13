@@ -436,7 +436,7 @@ section {
 
 .form-trust {
   font-size: 0.8rem;
-  color: var(--text-light);
+  color: var(--bg-light);
   text-align: center;
 }
 
@@ -660,7 +660,7 @@ section {
 }
 
 .social-links a {
-  color: var(--text-light);
+  color: var(--bg-light);
   text-decoration: none;
   transition: color 0.25s ease;
 }
