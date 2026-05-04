@@ -6,10 +6,12 @@
     content="Elite personal training and corporate wellness programs in Nassau Bahamas. Build muscle, lose fat, and transform your physique." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>World Class Physique | Personal Training Nassau</title>
-   <link rel="stylesheet" type="text/css" href="../css/style.css"/>
-  <link rel="stylesheet" type="text/css" href="../css/thank-you.css" />
+  <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/contact.css" />
   <link rel="stylesheet" type="text/css" href="../css/root.css" />
-  <link rel="icon" href="./images/favicon.png" />
+  <link rel="icon" type="image/png" sizes="favicon-16x16" href="../images/favicon-16x16.png"/>
+  <link rel="stylesheet" type="text/css" href="../css/icon.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body class="thank-you-page">
@@ -25,7 +27,7 @@
 
         <div class="logo">
           <a href="../index.html">
-           <img src="../images/Frank's Logo.png" alt="World Class Physique logo"/> 
+           <img src="../images/franks-logo.png" alt="World Class Physique logo"/> 
           </a> 
         </div>
 
@@ -83,7 +85,7 @@
     </section>
   </main>
   
-  <footer class="footer">
+ <footer class="footer">
 
     <div class="footer-top"></div>
 
@@ -97,29 +99,33 @@
 
         <p>World Class Physique</p>
 
-        <p>Nassau Bahamas</p>
+        <p class="nassau"><i class="fa-solid fa-location-dot"></i>Nassau Bahamas</p>
 
-        <p>
+       <p>
           <a href="tel:12428220994">
-            +1 (242) 822-0994
+            <i class="fa-solid fa-phone"></i> +1 (242) 822-0994
           </a>
         </p>
 
-        <p>
-          <a href="mailto:">Classic Physique email</a>
+       <p>
+          <a href="mailto:classicphysique.frank.rowena@gmail.com?subject=Personal%20Training%20Inquiry&body=Hi,%0A%0AI'm%20interested%20in%20starting%20a%20training%20program.%20Can%20you%20share%20details%20on%20pricing%20and%20availability?%0A%0AThanks!">
+          <i class="fa-solid fa-envelope"></i>
+            Email Us
+          </a>
         </p>
+
       </div>
       <!-- quick links -->
 
       <div class="footer-column">
 
-        <ul class="footer-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#programs">Programs</a></li>
-          <li><a href="#transformations">Transformations</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a hef="#bookings">Booking Session</a></li>
+        <ul id="contact" class="footer-links">
+          <li><a href="../index.html#home">Home</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#programs-services">Programs & Services</a></li>
+          <li><a href="../index.html#transformations">Transformations</a></li>
+          <li><a href="../index.html#testimonials">Testimonials</a></li>
+          <li><a href="../html/contact.html">Book a Session</a></li>
         </ul>
       </div>
 
@@ -129,17 +135,29 @@
 
         <h3>Follow Us</h3>
 
-        <ul class="social-links">
-          <li>
-            <a href="https://www.instagram.com/worldclassphysique_/">Instagram</a>
+         <ul class="social-links">
+          <li class="insta">
+            <a href="https://www.instagram.com/worldclassphysique_/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>Instagram
+            </a>
           </li>
 
-          <li><a href="https://www.facebook.com/share/1AwHvYga9V/?mibextid=wwXIfr">Facebook</a></li>
+          <li class="fbook">
+              <a href="https://www.facebook.com/share/1AwHvYga9V/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-facebook"></i>Facebook
+              </a>
+          </li>
 
-          <li><a href="https://www.tiktok.com/@worldclass380">TikTok</a></li>
+          <li class="tik">
+            <a href="https://www.tiktok.com/@worldclass380" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-tiktok"></i>
+            TikTok</a>
+          </li>
 
-          <li>
-            <a href="https://wa.me/12428220994" target="_blank">Chat With Us On WhatsApp</a>
+          <li class="whatsapp">
+            <a href="https://wa.me/12428220994" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-whatsapp"></i>Chat With Us On WhatsApp
+            </a>
           </li>
         </ul>
       </div>
@@ -151,7 +169,8 @@
       <p>© 2026 World Class Physique. All Rights Reserved.</p>
     </div>
   </footer>
-  <script src="../js/script.js"></script>
- <script src="../js/thank-you.js"></script>
+  <script src="../js/script.js"></script> 
+   <script src="../js/thank-you.js"></script> 
 </body>
+
 </html>
